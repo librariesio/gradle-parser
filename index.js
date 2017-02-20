@@ -3,8 +3,6 @@ var express = require('express')
 var bodyParser = require('body-parser')
 
 var app = express()
-
-var isProduction = app.get('env') === 'production';
 var port = process.env.PORT || 5000;
 
 app.use(bodyParser.text());
