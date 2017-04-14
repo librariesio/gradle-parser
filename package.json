@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "7.8"
+    "node": "7.9"
   },
   "author": "Andrew Nesbitt",
   "license": "MIT",
