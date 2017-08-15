@@ -15,6 +15,6 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "gradle-to-js": "^0.2.5"
+    "gradle-to-js": "^1.0"
   }
 }
