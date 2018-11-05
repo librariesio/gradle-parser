@@ -16,6 +16,10 @@ app.use(function(req, res, next) {
 app.post("/parse/", bodyParser.text({type: '*/*'}), function(req,res){
   g2js.parseText(req.body).then(function(representation) {
     res.end(JSON.stringify(representation))
+  }).catch (function(err) {
+    console.error('ERROR: ', err);
+    console.error('STACK: ', err.stack)
+    res.status(500).send({error: 'Something went wrong.'});
   });
 });
 
