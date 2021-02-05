@@ -8,13 +8,13 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "9.8.0"
+    "node": "14.2.0"
   },
   "author": "Andrew Nesbitt",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "gradle-to-js": "^1.0"
+    "express": "^4.17",
+    "gradle-to-js": "^2.0"
   }
 }
