@@ -7,6 +7,10 @@ A tiny node.js web service for parsing dependency information from `build.gradle
 Source hosted at [GitHub](http://github.com/librariesio/gradle-parser).
 Report issues/feature requests on [GitHub Issues](http://github.com/librariesio/gradle-parser/issues). Follow us on Twitter [@librariesio](https://twitter.com/librariesio). We also hangout on [Slack](http://slack.libraries.io).
 
+### Running locally
+
+`docker run -p 5000:5000 -it $(docker build -q .)`
+
 ### Note on Patches/Pull Requests
 
  * Fork the project.
